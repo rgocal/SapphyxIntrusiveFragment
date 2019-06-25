@@ -13,7 +13,7 @@ public abstract class IntrusiveFragment extends Fragment {
      * @param position the position in the adapter
      * @return the fragment to display.
      */
-    public final IntrusiveFragment getFragment(int position) {
+    public IntrusiveFragment getFragment(int position) {
         Bundle args = new Bundle();
         args.putInt(ARG_POSITION, position);
         IntrusiveFragment page = getNewInstance();
